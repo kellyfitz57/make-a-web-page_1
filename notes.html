@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+<title>Kelly's Nanodegree Notes</title>
+<link rel="stylesheet" href="notesstyle.css">
+
+<div>
+<body>
+  <span>
+  <h1>Kelly's Nanodegree Notes</h1>
+  <p>
+<h2>1.1 Basics of the Web</h2>
+  </span>
+<span>
+<h3>Major Pieces of the Web</h3>
+<br>Browsers make requests via the internet to servers
+<br>Browsers- a program that runs on your computer to display files found on the web
+<br>Internet- the world's largest computer network
+<br>Servers- computers that host the files that make up the web
+<br> HTTP- the main protocol of the web; the internet uses HTTP to communicate with you, your browser, and servers
+  </span>
+<br>
+<br>
+  <span>
+<h3>HTML- HyperText Markup Language</h3>
+<br>Heart of the web
+<br>HTML is made up of text content: what you see, markup: what it looks like, references to other documents: images videos etc, links to other pages
+  </span>
+<br>
+<br>
+  <span>
+<h3>HTML Markup</h3>
+<br>Made up of tags-
+<NAME>contents</NAME>
+<br>Whole thing is the element
+<br><b> Bold tag </b> -
+<b> contents
+  </b>
+    <br> Contents appears bold
+    </span>
+    <br>
+    <br>
+<span>
+    <h3>Connect HTML documents to any other document on the internet by adding links
+HTML Attributes</h3>
+    <br>
+    <TAG ATTR="value"> contents</TAG>
+    <br> Anchor tag- <a> for making links<br>
+	<a href="www.google.com">contents</a>
+    <br>
+    <br><b> Image Tag</b>
+    <br><img src="url" alt="text">
+    <br>Images don't have a closing tag
+    <br> Void tag- a tag without a closing tag
+    </span>
+    <br>
+    <br>
+   <span>
+      <h3>Whitespace</h3>
+    <br>Text on multiple lines put text on same line
+    <br>break tag void tag
+
+    <p> paragraph NOT void tag
+    </span>
+      <br>
+      <br>
+      <span>
+      <h3>Inline/Block</h3>
+      <br>break tag - inline
+      <br>paragraph tag - block
+      <br> HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+      </span>
+    </div>
+      <br>  <p>
+    <div>
+      <span>   <h2>1.2 Creating a Structured Document</h2> </span>
+       
+      <span>The browser builds a tree like stucture of the page. Sideways triangles are an HTML element, each has an opening and closing tag. Everything on a webpage is actually in a box. Everything is in a box, regardless of how the shape appears on the webpage. The style changes the shape inside the box, border radius makes things not squares. A browser sees HTML as boxes within boxes within boxes...	 When programmers talk about the DOM(Document Object Model) they are talking about the tree like structure of a page. Class attributes are reminders of what's inside of the tags
+      </span>
+
+        <p>
+          <span>
+          <h3>HTML</h3><br>
+          	HTML controls the "structure" of a web page<br>
+          	Language of the web<br>
+	Has specific syntax and rules<br>
+	Basic word in the language is tag<br>
+	Tags are turned into elements in tree form<br>
+	DOM turns tags into elements in tree<br>
+	Elements are created from the starting tag to the ending tag everything in between is content<br>
+	Each tag has a name or type that defines what type of element will be created<br>
+	Each tag can have attributes  with values<br>
+      </span>
+	
+    <p>
+     <span> 
+       <h3>CSS</h3><br>
+      	CSS controls the "style" of a page (how it looks)<br>
+      	A language to define the style<br>
+	Changes how elements look on the page<br>
+	CSS gives HTML or the browser information about the style<br>
+      </span>
+    </div>
+<div>
+<span> <h2>1.3 Adding CSS Style and HTML Structure</h2></span>
+<span>
+<br>
+CSS is code written to control the "style" of HTML elements. 
+<br>
+CSS styles allow you to avoid writing the same code over and over. 
+<br>
+CSS stands for Cascading Style Sheets. The C is the most important part of the phrase.
+<br>
+Most specific rules are applied to not just to a specified element,  but also all of its descendants. This idea is called inheritance.
+<br>
+Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing. Properties that cannot be inherited are background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index
+<br>
+<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">More info on CSS</a>
+<br>
+
+Inheritance prevents repetition when writing CSS
+</span>
+<p>
+<span>
+<h3>Box Sizing</h3> <br>
+  1. HTML elements are boxes and each box has 4 components.<br>
+  2. Because there are so many components to each box, it can often be hard to get the size of a box just right.<br>
+  3. There are two techniques you can use to help deal with sizing issues.<br>
+    1. Set sizes in terms of percentages rather than pixels.<br>
+    2. Set the box-sizing attribute to border-box for every element.<br>
+  4. Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.<br><br>
+<h3>Box Positioning</h3><br>
+1. Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.<br>
+2. Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.<br>
+</span>
+<p>
+<span>
+<h3>Useful Links</h3><br>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS reference</a> <br>
+<a href="http://validator.w3.org/#validate_by_input">HTML validator</a> <br>
+<a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS validator</a>
+</body>
+</div>
